@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4E0B422-3080-473C-8259-68A072314BA6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RestClient1</RootNamespace>
+    <AssemblyName>RestClient1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="dataFile\DataFile.cs" />
+    <Compile Include="dataFile\GetDataFileChunkISOutputWS.cs" />
+    <Compile Include="delivery\AddDeliveryOutputWS.cs" />
+    <Compile Include="delivery\AddExpressDeliveryWithDataFileIdsExtOutputWS.cs" />
+    <Compile Include="delivery\DeleteDeliveryOutputWS.cs" />
+    <Compile Include="delivery\DeleteRecipientDeliveryOutputWS.cs" />
+    <Compile Include="delivery\DeliveryVOWS.cs" />
+    <Compile Include="delivery\EditDeliveryOutputWS.cs" />
+    <Compile Include="delivery\ExtDeliveryVOWS.cs" />
+    <Compile Include="delivery\GetDeliveryOutputWS.cs" />
+    <Compile Include="delivery\GetUserDeliveriesOutputWS.cs" />
+    <Compile Include="delivery\RecipientsWS.cs" />
+    <Compile Include="document\Document.cs" />
+    <Compile Include="document\EditDocumentOutputWS.cs" />
+    <Compile Include="document\GetDocumentOutputWS.cs" />
+    <Compile Include="document\GetDocumentsOutputWS.cs" />
+    <Compile Include="ObjectLink.cs" />
+    <Compile Include="secureReply\AddReplyOutputWS.cs" />
+    <Compile Include="secureReply\GetRepliesOutputWS.cs" />
+    <Compile Include="secureReply\GetReplyDocumentsOutputWS.cs" />
+    <Compile Include="secureReply\GetReplyOutputWS.cs" />
+    <Compile Include="secureReply\ReplyDocumentVO.cs" />
+    <Compile Include="secureReply\ReplyVOWS.cs" />
+    <Compile Include="secureReply\SecureReply.cs" />
+    <Compile Include="workspace\AddCommentOutputWS.cs" />
+    <Compile Include="workspace\AddDirectoryOutputWS.cs" />
+    <Compile Include="workspace\AddDocumentOutputWS.cs" />
+    <Compile Include="delivery\AddExpressDeliveryOutputWS.cs" />
+    <Compile Include="package\Package.cs" />
+    <Compile Include="package\AddPacakageDocumentsOutputWS.cs" />
+    <Compile Include="package\AddPackageOutputWS.cs" />
+    <Compile Include="package\AddPackageOutputWS1.cs" />
+    <Compile Include="package\DeletePackageOutputWS.cs" />
+    <Compile Include="package\DeliveryVOWS.cs" />
+    <Compile Include="package\EditPackageOutputWS.cs" />
+    <Compile Include="package\ExtPackageVOWS.cs" />
+    <Compile Include="package\GetPackageDeliveriesOutputWS.cs" />
+    <Compile Include="package\GetPackageOutputWS.cs" />
+    <Compile Include="package\GetPackageOwnersOutputWS.cs" />
+    <Compile Include="package\GetPackageSendersOutputWS.cs" />
+    <Compile Include="package\GetUserPackagesOutputWS.cs" />
+    <Compile Include="user\DeleteUserOutputWS.cs" />
+    <Compile Include="user\SignOutOutputWS.cs" />
+    <Compile Include="user\AddUserOutputWS.cs" />
+    <Compile Include="workspace\AddWorkspaceOutputWS.cs" />
+    <Compile Include="BDSFileVOWS.cs" />
+    <Compile Include="workspace\CommentInfoWS.cs" />
+    <Compile Include="workspace\CommentVOWS.cs" />
+    <Compile Include="dataFile\CompleteDataFileUploadOutputWS.cs" />
+    <Compile Include="dataFile\DataFileVOWS.cs" />
+    <Compile Include="document\DeleteDocumentOutputWS.cs" />
+    <Compile Include="workspace\DeleteWorkspaceOutputWS.cs" />
+    <Compile Include="delivery\Delivery.cs" />
+    <Compile Include="document\DocumentVOWS.cs" />
+    <Compile Include="workspace\EditWorkspaceOutputWS.cs" />
+    <Compile Include="workspace\GetSoleManagerWorkspacesOutputWS.cs" />
+    <Compile Include="workspace\GetUserWorkspacesOutputWS.cs" />
+    <Compile Include="workspace\GetWorkspaceCommentsOutputWS.cs" />
+    <Compile Include="workspace\GetWorkspaceNotificationsOutputWS.cs" />
+    <Compile Include="workspace\GetWorkspaceOutputWS.cs" />
+    <Compile Include="workspace\GetWorkspaceOutputWS1.cs" />
+    <Compile Include="workspace\GetWorkspaceTransactionsOutputWS.cs" />
+    <Compile Include="workspace\GetWorkspaceUserSettingsOutputWS.cs" />
+    <Compile Include="workspace\GetWorkspaceUserSettingsOutputWS1.cs" />
+    <Compile Include="workspace\LockWorkspaceOutputWS.cs" />
+    <Compile Include="MyFile.cs" />
+    <Compile Include="GetInitPropertyOutputWS.cs" />
+    <Compile Include="dataFile\InitiateDataFileUploadOutputWS.cs" />
+    <Compile Include="InitPropertyVOWS.cs" />
+    <Compile Include="BDSRESTClientTester.cs" />
+    <Compile Include="RcMessageWS.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="BDSRESTClientBase.cs" />
+    <Compile Include="workspace\SaveWorkspaceUserSettingsOutputWS.cs" />
+    <Compile Include="user\SignInOutputWS.cs" />
+    <Compile Include="StatusLockedDataWS.cs" />
+    <Compile Include="TransactionVOWS.cs" />
+    <Compile Include="dataFile\UpdateDataFileUploadOutputWS.cs" />
+    <Compile Include="user\User.cs" />
+    <Compile Include="user\UserVOWS.cs" />
+    <Compile Include="user\EditUserOutputWS.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="workspace\Workspace.cs" />
+    <Compile Include="workspace\WorkspaceNotificationVOWS.cs" />
+    <Compile Include="workspace\WorkspaceUsersWS.cs" />
+    <Compile Include="workspace\WorkspaceVOWS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.1.0\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

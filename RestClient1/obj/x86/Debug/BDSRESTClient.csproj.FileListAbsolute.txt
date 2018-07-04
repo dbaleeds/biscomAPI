@@ -1,0 +1,30 @@
+D:\DEV Doc\RestClient_30_10_2012\RestClient1\RestClient1\bin\Debug\RestClient1.exe.config
+D:\DEV Doc\RestClient_30_10_2012\RestClient1\RestClient1\bin\Debug\RestClient1.exe
+D:\DEV Doc\RestClient_30_10_2012\RestClient1\RestClient1\bin\Debug\RestClient1.pdb
+D:\DEV Doc\RestClient_30_10_2012\RestClient1\RestClient1\bin\Debug\Newtonsoft.Json.dll
+D:\DEV Doc\RestClient_30_10_2012\RestClient1\RestClient1\bin\Debug\RestSharp.dll
+D:\DEV Doc\RestClient_30_10_2012\RestClient1\RestClient1\bin\Debug\Newtonsoft.Json.xml
+D:\DEV Doc\RestClient_30_10_2012\RestClient1\RestClient1\bin\Debug\RestSharp.xml
+D:\DEV Doc\RestClient_30_10_2012\RestClient1\RestClient1\obj\x86\Debug\RestClient1.exe
+D:\DEV Doc\RestClient_30_10_2012\RestClient1\RestClient1\obj\x86\Debug\RestClient1.pdb
+D:\DEV Doc\RestClient_30_10_2012\RestClient1\RestClient1\obj\x86\Debug\BDSRESTClient.csprojResolveAssemblyReference.cache
+G:\Projects\RestClient1\RestClient1\RestClient1\bin\Debug\RestClient1.exe.config
+G:\Projects\RestClient1\RestClient1\RestClient1\bin\Debug\RestClient1.exe
+G:\Projects\RestClient1\RestClient1\RestClient1\bin\Debug\RestClient1.pdb
+G:\Projects\RestClient1\RestClient1\RestClient1\bin\Debug\Newtonsoft.Json.dll
+G:\Projects\RestClient1\RestClient1\RestClient1\bin\Debug\RestSharp.dll
+G:\Projects\RestClient1\RestClient1\RestClient1\bin\Debug\Newtonsoft.Json.xml
+G:\Projects\RestClient1\RestClient1\RestClient1\bin\Debug\RestSharp.xml
+G:\Projects\RestClient1\RestClient1\RestClient1\obj\x86\Debug\RestClient1.exe
+G:\Projects\RestClient1\RestClient1\RestClient1\obj\x86\Debug\RestClient1.pdb
+G:\Projects\RestClient1\RestClient1\RestClient1\obj\x86\Debug\BDSRESTClient.csprojResolveAssemblyReference.cache
+N:\Academic-Services\ISS\IRC-Data-Services\Development\Tools\BiscomAPI\RestClient1\RestClient1\bin\Debug\RestClient1.exe.config
+N:\Academic-Services\ISS\IRC-Data-Services\Development\Tools\BiscomAPI\RestClient1\RestClient1\bin\Debug\RestClient1.exe
+N:\Academic-Services\ISS\IRC-Data-Services\Development\Tools\BiscomAPI\RestClient1\RestClient1\bin\Debug\RestClient1.pdb
+N:\Academic-Services\ISS\IRC-Data-Services\Development\Tools\BiscomAPI\RestClient1\RestClient1\bin\Debug\Newtonsoft.Json.dll
+N:\Academic-Services\ISS\IRC-Data-Services\Development\Tools\BiscomAPI\RestClient1\RestClient1\bin\Debug\RestSharp.dll
+N:\Academic-Services\ISS\IRC-Data-Services\Development\Tools\BiscomAPI\RestClient1\RestClient1\bin\Debug\Newtonsoft.Json.xml
+N:\Academic-Services\ISS\IRC-Data-Services\Development\Tools\BiscomAPI\RestClient1\RestClient1\bin\Debug\RestSharp.xml
+N:\Academic-Services\ISS\IRC-Data-Services\Development\Tools\BiscomAPI\RestClient1\RestClient1\obj\x86\Debug\BDSRESTClient.csprojResolveAssemblyReference.cache
+N:\Academic-Services\ISS\IRC-Data-Services\Development\Tools\BiscomAPI\RestClient1\RestClient1\obj\x86\Debug\RestClient1.exe
+N:\Academic-Services\ISS\IRC-Data-Services\Development\Tools\BiscomAPI\RestClient1\RestClient1\obj\x86\Debug\RestClient1.pdb
